@@ -48,27 +48,27 @@ my-app/
 
 ## 📦 Installation
 
-1. Cloner le dépôt
+#### **1. Cloner le dépôt**
 
 ```bash
 git clone https://github.com/Thomasbrelot/O-Tchatoto.git
 cd O-Tchatoto
 ```
 
-2. Installer les dépendances
+#### **2. Installer les dépendances**
 
 ```bash
 npm install
 ```
 
-3. Configurer l’environnement
+#### **3. Configurer l’environnement**
    Crée un fichier .env à la racine du projet :
 
 ```bash
 VITE_KeyApiMistral=ta_clé_api_mistral
 ```
 
-4. Lancer Pocketbase
+#### **4. Lancer Pocketbase**
 
 - Télécharge Pocketbase : https://pocketbase.io/
 
@@ -80,7 +80,7 @@ VITE_KeyApiMistral=ta_clé_api_mistral
 
 Cela ouvre un backend local sur http://127.0.0.1:8090.
 
-5. Démarrer l’app
+#### **5. Démarrer l’app**
 
 ```bash
 npm run dev
@@ -90,7 +90,11 @@ npm run dev
 
 ### 📸 Aperçu de l'application
 
-### ✨ À propos
+![Texte alternatif](Maquette_O'Tchatoto/Résultat_Desktop.png)
+![Texte alternatif](Maquette_O'Tchatoto/Résultat_Mobile.png)
+
+
+# ✨ À propos
 
 Ce projet a été réalisé dans le cadre d’un exercice front-end avec SvelteKit, pour démontrer :
 
