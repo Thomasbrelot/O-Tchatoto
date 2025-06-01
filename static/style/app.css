@@ -329,14 +329,14 @@ button.delete-icon:hover {
 		display: block;
 		object-fit: cover;
 		width: 100%;
-		max-width: 8%;
+		max-width: 5%;
 		border-radius: 100%;
 	}
 	.burger-button {
 		display: none;
 	}
 	.app-title {
-		font-size: 2rem;
+		font-size: 1.8rem;
 		letter-spacing: 1.5rem;
 	}
 
