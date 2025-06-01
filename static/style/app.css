@@ -45,30 +45,39 @@ main {
 }
 
 .app-title {
-	font-size: 1.6rem;
+	font-size: 1.2rem;
 	font-weight: bold;
 	text-transform: uppercase;
+	letter-spacing: 0.5rem;
+}
+img.logo-navbar {
+	object-fit: cover;
+	width: 100%;
+	max-width: 8%;
+	border-radius: 100%;
+}
+img.logo-navbar {
+	display: none;
 }
 
 /* === Drawer === */
 .drawer {
 	position: fixed;
-	top: 0;
-	left: 0;
+	height: calc(100vh - 2rem); /* hauteur ajustée */
 	width: 80%;
-	max-width: 300px;
+	max-width: 320px;
 	background-color: #1a1a1a;
-	color: #fff;
+	color: white;
 	padding: 1rem;
-	box-shadow: 2px 0 10px rgba(0, 0, 0, 0.4);
-	transform: translateX(-100%);
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6); /* ombre plus nette */
+	border-radius: 12px; /* arrondi global */
+	transform: translateX(-120%);
 	transition: transform 0.3s ease;
 	z-index: 1000;
 	overflow-y: auto;
-	flex-shrink: 0;
 	display: flex;
 	flex-direction: column;
-	height: -webkit-fill-available;
+	border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .drawer.open {
@@ -312,17 +321,23 @@ button.delete-icon:hover {
 		overflow: hidden;
 	}
 	.app-header {
-		justify-content: center;
 		padding: 1.6rem;
 		border-bottom-left-radius: 0px;
 		border-bottom-right-radius: 0px;
+	}
+	img.logo-navbar {
+		display: block;
+		object-fit: cover;
+		width: 100%;
+		max-width: 8%;
+		border-radius: 100%;
 	}
 	.burger-button {
 		display: none;
 	}
 	.app-title {
 		font-size: 2rem;
-		letter-spacing: 0.2rem;
+		letter-spacing: 1.5rem;
 	}
 
 	.drawer {

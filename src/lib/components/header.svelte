@@ -15,5 +15,6 @@
 		<span class="bar"></span>
 	</button>
 
+	<img class="logo-navbar" src="/Logo-O'Tchatoto.png" alt="Logo du site o'tchatoto" />
 	<h1 class="app-title">O'Tchatoto</h1>
 </header>
