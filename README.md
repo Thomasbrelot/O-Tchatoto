@@ -62,7 +62,8 @@ npm install
 ```
 
 #### **3. Configurer l’environnement**
-   Crée un fichier .env à la racine du projet :
+
+Crée un fichier .env à la racine du projet :
 
 ```bash
 VITE_KeyApiMistral=ta_clé_api_mistral
@@ -91,8 +92,7 @@ npm run dev
 ### 📸 Aperçu de l'application
 
 ![Texte alternatif](Maquette_O'Tchatoto/Résultat_Desktop.png)
-![Texte alternatif](Maquette_O'Tchatoto/Résultat_Mobile.png)
-
+<img src="Maquette_O'Tchatoto/Résultat_Mobile.png" alt="Maquette" style="width: 50%;" />
 
 # ✨ À propos
 
